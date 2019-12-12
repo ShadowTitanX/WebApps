@@ -1,0 +1,99 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+body{
+  font-family: "Montserrat";
+}
+.container-fluid{
+  padding:3% 15%;
+}
+
+h1 {
+  font-family: 'Montserrat-black';
+  font-size:40px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+
+/* NavBar */
+
+.navbar-brand{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Ubuntu";
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-item{
+  padding: 0 18px ; /* first one is top and bottom , next is left and right */
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+#features{
+    padding:10% 15%;
+    text-align: center;
+}
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.icon:hover{               /* known as sudo state */
+  color: #ff4c68;
+}
+
+.carousel-item{
+    padding:10% 15%;
+}
+
+#testimonials{
+
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.test{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;   /* margin all 4 sides */
+}
+
+#press{
+  padding:10% 15%;
+  color: #000;
+  text-align: center;
+}
+.img-size{
+  width: 20%;
+  margin: 50px 20px 20px;
+}
+
+.container{
+  background-color: #ef8172;
+  padding:10% 15%;
+}
+
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+  transform: rotate(0);
+  }
+}
